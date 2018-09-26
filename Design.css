@@ -1,0 +1,94 @@
+.A1
+{
+    background-color: grey;
+    border: 3px;
+    text-decoration: black;
+    font-weight: bold;
+}
+#A2
+{
+    background-color: grey;
+    border: solid 3px;
+    text-decoration: black;
+    font-weight: bold;
+    border-radius: 20px;
+}
+a:hover
+{
+    color: black;
+}
+#heading1
+{
+    text-align: center;
+    text-decoration: wavy;
+}
+.paragraph2
+{
+    text-align: right;
+    font-weight: bold;
+}
+#P1
+{
+    text-align: center;
+    color: black;
+}
+.img1
+{
+    height: 10px
+    lenght: 10px
+}
+.word
+{
+    color: blue;
+}
+.body
+{
+    background-color: indianred;
+    background-image: url("Images/pexels-photo-1404918.jpg");
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    backface-visibility: hidden;
+}
+#blinker {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    color: balck;
+    text-align: center;
+    font-family: Algerian;
+}
+@-moz-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+#P1
+{
+    font-family: "Cooper Black";
+font-max-size: larger;
+}
+
